@@ -1,0 +1,151 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>guriya's fitness</title>
+
+    </head>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+          /*CSS reset*/
+        body{
+            color: aliceblue;
+            margin:0px;
+            padding: 0px;
+            background: url('img/pexels-jonathan-borba-3076514.jpg');
+            height: 4555px;
+        
+    
+
+
+}
+        .left{
+           /* border: 2px solid red; */
+           display: inline-block;
+           position: absolute;
+            left: 34px;
+            top: 20px;
+        }
+        .left img{
+            width: 70px;
+        }
+        .left div{
+            text-align: center;
+        }
+        .centre{
+            display: block;
+            width: 33%;
+            margin: 20px auto;
+            /* border: 2px solid green; */
+
+        }
+        .right{
+            position: absolute;
+            right: 34px;
+            top: 20px;
+            /* border: 2px solid blue; */
+
+        }
+        .btn{
+            margin: 0px 9px;
+            background-color: black;
+            color: white;
+            padding: 4px 14px;
+            border: 2px solid gray;
+            border-radius: 10px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+        .btn:hover{
+            background-color: rgb(3, 3, 71);
+        }
+        .navbar li{
+            display: inline-block;
+            font-size: 17px;
+        }
+        .navbar li a{
+            color: aliceblue;
+            text-decoration: none;
+            padding: 34px 23px;
+        }
+        .navbar li a.active, .navbar li a:hover{
+            text-decoration: underline;
+            color: grey;
+        }
+        .container{
+            border: 2px solid whitesmoke;
+            margin: 106px 80px;
+            padding: 75px;
+            width: 33%;
+            border-radius: 28px;
+
+        }
+        .form-group input{
+            text-align: center;
+            display: block;
+            width: 444px;
+            padding: 11px;
+            margin: 11px auto;
+            border: 2px solid black;
+            border-radius: 8px;
+            font-size: 19px;
+
+
+        }
+        .container h1{
+            text-align: center;
+        }
+        .container button{
+            display: block;
+            width: 33%;
+            margin: 20px auto;
+        }
+    </style>
+    <body>
+        <header class="header">
+            <div class="left">
+                <!-- left box for logo -->
+                <img src="img/logo.png.webp" alt="" >
+                <div>guriya fitness</div>
+            </div>
+            <div class="centre" ,>
+                <!-- centre box for navbar -->
+                <ul class="navbar">
+                    <li><a href="#" class="active">Home</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Fitness centre</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+
+
+            </div>
+            <div class="right">
+                <!-- right box for buttons -->
+                <button class="btn">call now us</button>
+                <button class="btn">Email us</button>
+
+            </div>
+        </header>
+        <div class="container">
+            <h1>
+                join the best gym now
+            </h1>
+            <form action="noaction.php">
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Name">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Age">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your Gender">
+                </div>
+                <div class="form-group">
+                    <input type="text" name="" placeholder="Enter your status">
+                </div>
+                <button class="btn">submit</button>
+            </form>
+        </div>
+
+
+    </body>
+</html>
